@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [github repo](https://github.com/Nabster2010/space-tourism-website)
-- Live Site URL: [live site]()
+- Live Site URL: [live site](https://space-tourism-website-k71e.vercel.app/ar/technology)
 
 ### Built with
 
