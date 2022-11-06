@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Tab } from "@headlessui/react";
 import Image from "next/image";
 import data from "../data.json";
-function classNames(...classes) {
+function classNames(...classes: string[]): string {
   return classes.filter(Boolean).join(" ");
 }
 const DestinationsTabComponent = () => {

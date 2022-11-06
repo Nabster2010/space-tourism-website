@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Tab } from "@headlessui/react";
 import data from "../data.json";
-function classNames(...classes: any[]) {
+function classNames(...classes: string[]): string {
   return classes.filter(Boolean).join(" ");
 }
 const TechTabComponent = () => {
@@ -49,7 +49,7 @@ const TechTabComponent = () => {
               </Tab.List>
               <Tab.Panels>
                 {technology.map((tech, idx) => (
-                  <Tab.Panel key={idx} className={classNames("", "")}>
+                  <Tab.Panel key={idx}>
                     <div className="text-center text-White lg:text-start ">
                       <p className="uppercase text-[14px] md:text-base lg:mt-0  mt-[26px] md:mt-[44px]  text-lightBlue font-Barlow tracking-[2.36px] md:tracking-[2.7px]">
                         THE TERMINOLOGY…
