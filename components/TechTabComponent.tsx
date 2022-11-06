@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Tab } from "@headlessui/react";
 import data from "../data.json";
-function classNames(...classes) {
+function classNames(...classes: any[]) {
   return classes.filter(Boolean).join(" ");
 }
 const TechTabComponent = () => {
