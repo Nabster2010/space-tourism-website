@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-item {
+  @apply relative after:absolute after:content-[''] after:w-full after:h-[3px] after:bg-transparent hover:after:bg-white/50 after:transition after:left-0 after:-bottom-2 md:after:-bottom-[38px];
+}
+.nav-item.active {
+  @apply after:bg-white;
+}
+
+.control-dots {
+  @apply !top-[255px] md:!top-[235px] lg:!w-auto lg:!left-0 lg:!top-[600px] !m-0;
+}
+.carousel-slider {
+  @apply md:!h-[850px];
+}
